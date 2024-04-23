@@ -55,7 +55,7 @@
     font-family: "Roboto", sans-serif;
 }
 .header__body{
-    width: 1198px;
+    width: 83.194%;
     height: 76px;
     display: flex;
     box-sizing: border-box;
@@ -69,7 +69,7 @@
     margin-left: 0px;
 }
 .header__cn{
-    width: 496px;
+    width: 41.4%;
     height: 23px;
     margin-top: 20px;
     margin-left: 161px;
@@ -100,6 +100,13 @@
     height: 40px;
     margin-top: 14px;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__contac--items{
+    width: 150px;
+    height: 100%;
 }
 .header__contac--items1{
     font-size: 20px;
@@ -119,9 +126,7 @@
 .header__contac--items3{
     width: 35px;
     height: 35px;
-    position: absolute;
-    top: 67px;
-    left: 1200px;
+
 }
 .header__bonton{
     width: 90px;
