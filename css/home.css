@@ -31,9 +31,19 @@
 .content-10{
     width: 100%;
     height: 100%;
-    background-color:aquamarine;
+    background-color:#FFF8EE;
     box-sizing: border-box;
     padding-top: 15px;
+}
+.content-10__block1{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-10__items{
+    width: 510px;
+    height: 100%;
 }
 .content-10__items1{
     color: #CC3333;
@@ -41,7 +51,6 @@
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: bolder;
-    margin-left: 145px;
     margin-bottom: -30px;
 }
 .content-10__items2{
@@ -50,7 +59,6 @@
     font-size: 50px;
     font-family: "Roboto", sans-serif;
     font-style: italic;
-    margin-left: 145px;
 }
 .content-10__items2--style{
     color: #CC3333;
@@ -61,14 +69,14 @@
 .content-10__items--product{
     width: 438px;
     height: 292px;
-    position: absolute;
-    top: 20px;
-    left: 650px;
 }
 .content-10__items3{
-    width: 290px;
+    width: 100%;
     height: 60px;
     display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 50px;
 }
 .content-10__items3--button{
     width: 200px;
@@ -87,5 +95,50 @@
     color:#2A435D;
     font-family: "Roboto", sans-serif;
     white-space: nowrap;
-
+}
+.content-10__block2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-10__items4--icon{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+}
+.content-10__items4--icon__link{
+    width: 31.88px;
+    height: 31.2px;
+    text-decoration: none;
+    display: flex;
+}
+.content-10__items4--icon__link:last-child{
+    margin-top: -10px;
+}
+.content-10__items4--icon__items{
+    margin: auto;
+    color: #CC3333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+}
+.content-10__items4--cuon{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.content-10__items4--cuon__items{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #CC3333;
+    border-radius: 50%;
+    background-color: #FFF8EE;
 }
