@@ -92,6 +92,11 @@
     cursor: pointer;
     color: #FFF8EE;
     border: 2px solid #CC3333;
+    transition: transform 0.3s ease;
+}
+.content-10__items3--button:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
 }
 .content-10__items3--text{
     font-size: 25px;
@@ -305,6 +310,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.content-3__box3--items1__content2--button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
 }
 .content-3__box3--items2{
     width: 359px;
