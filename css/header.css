@@ -78,7 +78,7 @@
     display: flex;
     box-sizing: border-box;
     background-color:#FFF8EE;
-
+    justify-content: space-between;
 }
 .header__logo{
     width: 112px;
