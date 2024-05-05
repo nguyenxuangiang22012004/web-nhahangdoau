@@ -64,13 +64,18 @@
     width: 511px;
     height: 294px;
     box-sizing: border-box;
+    text-align: justify;
 }
 .content-2__box2--items1{
+    width: 100%;
+    height: 95px;
     font-size: 20px;
     font-weight: bold;
     color: #2A435D;
 }
 .content-2__box2--items2{
+    width: 100%;
+    height: 132px;
     font-size: 18px;
     color: #2A435D;
     margin-top: 30px;
