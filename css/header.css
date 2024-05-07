@@ -1,3 +1,11 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --maincolor1:#CC3333;
+    --maincolor2: #FFF8EE;
+    --maincolor3: #2A435D;
+}
 .header__block{
     width: 100%;
     height: 154px;
@@ -10,7 +18,7 @@
 .header__nabal{
     width: 100%;
     height: 35px;
-    background-color: #CC3333;
+    background-color:var(--maincolor1);
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -43,7 +51,7 @@
 .header__content{
     width: 100%;
     height: 119px;
-    background-color: #FFF8EE;
+    background-color:var(--maincolor2);
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -56,20 +64,20 @@
 .header__nabal--call{
     width: 20px;
     height: 20px;
-    color: #FFF8EE;
+    color:var( --maincolor2);
 }
 .header__nabal--call--text,.header__nabal--time--text{
     width: 104px;
     height: 14px;
     font-size: 12px;
     font-family: "Roboto", sans-serif;
-    color: #FFF8EE;
+    color:var( --maincolor2);
 }
 .header__nabal--items3--items{
     width: 55px;
     height: 14px;
     font-size: 12px;
-    color: #FFF8EE;
+    color:var( --maincolor2);
     font-family: "Roboto", sans-serif;
 }
 .header__body{
@@ -77,7 +85,7 @@
     height: 76px;
     display: flex;
     box-sizing: border-box;
-    background-color:#FFF8EE;
+    background-color:var(--maincolor2);
     justify-content: space-between;
 }
 .header__logo{
@@ -137,7 +145,7 @@
 .header__contac--items2{
     font-size: 15px;
     font-family: "Roboto", sans-serif;
-    color: #2A435D;
+    color: var(--maincolor3);
     margin-top: -35px;
     margin-left: 0px;
 }
@@ -149,7 +157,7 @@
 .header__bonton{
     width: 90px;
     height: 35px;
-    background-color: #CC3333;
+    background-color:var(--maincolor1);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -157,7 +165,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight:bold;
-    color: #FFF8EE;
+    color:var( --maincolor2);
     cursor: pointer;
     margin-left: 44px;
     margin-top: 14px;
