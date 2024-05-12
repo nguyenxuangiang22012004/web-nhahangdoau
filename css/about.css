@@ -199,6 +199,9 @@
     align-items: center;
     margin-top: 35px;
 }
+.content-4__box1__button--link{
+    text-decoration: none;
+}
 .content-4__box1__button--items{
     width: 300px;
     height: 60px;

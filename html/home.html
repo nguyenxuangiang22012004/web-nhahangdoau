@@ -11,23 +11,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <iframe class="header" src="../html/header.html"></iframe>
+    <iframe class="header" src="../html/header.html" name="iframe_a"></iframe>
     <div class="content">
         <div class="content-1">
             <div class="content-1__box">
                 <div class="content-1__box--items">
                     <div class="content-1__block1">
-                        <div class="content-1__items">
-                            <p class="content-1__items1">Best In Town</p>
-                            <h2 class="content-1__items2">ENJOY OUR CHICKEN<br> <span class="content-1__items2--style">BURGER</span> FAST FOOD</h2>
-                            <div class="content-1__items3">
-                                <a class="content-1__items3--link" href="">
-                                    <button class="content-1__items3--button">Order Now</button>
-                                </a>
-                                <p class="content-1__items3--text">Price : $10.50</p>
+                        <div class="content-1__block1__slideshow">
+                            <div class="content-1__block1__layout">
+                                <div class="content-1__items">
+                                    <p class="content-1__items1">Best In Town</p>
+                                    <h2 class="content-1__items2">ENJOY OUR CHICKEN<br> <span class="content-1__items2--style">BURGER</span> FAST FOOD</h2>
+                                    <div class="content-1__items3">
+                                        <a class="content-1__items3--link" href="">
+                                            <button class="content-1__items3--button">Order Now</button>
+                                        </a>
+                                        <p class="content-1__items3--text">Price : $10.50</p>
+                                    </div>
+                                </div>
+                                    <img class="content-1__items--product" src="../img/home-img/image1.png" alt="">
                             </div>
                         </div>
-                            <img class="content-1__items--product" src="../img/home-img/image1.png" alt="">
+                        <div class="content-1__block1__slideshow">
+                            <div class="content-1__block1__layout">
+                                <div class="content-1__items">
+                                    <p class="content-1__items1">Best In Town</p>
+                                    <h2 class="content-1__items2">ENJOY BEEF STEAK<br> <span class="content-1__items2--style">BURGER</span> FAST FOOD</h2>
+                                    <div class="content-1__items3">
+                                        <a class="content-1__items3--link" href="">
+                                            <button class="content-1__items3--button">Order Now</button>
+                                        </a>
+                                        <p class="content-1__items3--text">Price : $10.50</p>
+                                    </div>
+                                </div>
+                                    <img class="content-1__items--product" src="../img/home-img/pexels-ryasnik-3840182.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content-1__block1__slideshow">
+                            <div class="content-1__block1__layout">
+                                <div class="content-1__items">
+                                    <p class="content-1__items1">Best In Town</p>
+                                    <h2 class="content-1__items2">ENJOY HAMBERGER<br> <span class="content-1__items2--style">BURGER</span> FAST FOOD</h2>
+                                    <div class="content-1__items3">
+                                        <a class="content-1__items3--link" href="">
+                                            <button class="content-1__items3--button">Order Now</button>
+                                        </a>
+                                        <p class="content-1__items3--text">Price : $10.50</p>
+                                    </div>
+                                </div>
+                                    <img class="content-1__items--product" src="../img/home-img/pexels-horizon-content-2100060-3738730.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content-1__block1__slideshow">
+                            <div class="content-1__block1__layout">
+                                <div class="content-1__items">
+                                    <p class="content-1__items1">Best In Town</p>
+                                    <h2 class="content-1__items2">ENJOY SPAGHETTI<br> <span class="content-1__items2--style">BURGER</span> FAST FOOD</h2>
+                                    <div class="content-1__items3">
+                                        <a class="content-1__items3--link" href="">
+                                            <button class="content-1__items3--button">Order Now</button>
+                                        </a>
+                                        <p class="content-1__items3--text">Price : $10.50</p>
+                                    </div>
+                                </div>
+                                    <img class="content-1__items--product" src="../img/home-img/pexels-enginakyurt-2347311.png" alt="">
+                            </div>
+                        </div>
                     </div>
                     <div class="content-1__block2">
                         <div class="content-1__items4--icon">
@@ -138,84 +187,365 @@
                 </div>
             </div>
             <div class="content-5__menu">
-                <div class="content-5__menu--items">BREAKFAST</div>
-                <div class="content-5__menu--items">LUNCH</div>
-                <div class="content-5__menu--items">DINNER</div>
-                <div class="content-5__menu--items">STARTERS</div>
-                <div class="content-5__menu--items">BEVERAGES</div>
+                <div class="content-5__menu--items" onclick="currentSlide(1)">BREAKFAST</div>
+                <div class="content-5__menu--items" onclick="currentSlide(2)">LUNCH</div>
+                <div class="content-5__menu--items" onclick="currentSlide(3)">DINNER</div>
+                <div class="content-5__menu--items" onclick="currentSlide(4)">STARTERS</div>
+                <div class="content-5__menu--items" onclick="currentSlide(5)">BEVERAGES</div>
             </div>
             <div class="content-5__content">
-                <div class="content-5__content--img">
-                    <img class="content-5__content--img1" src="../img/home-img/left arrow.png" alt="">
+                <div class="content-5__content--img" onclick="plusSlides(-1)" >
+                    <img  class="content-5__content--img1" src="../img/home-img/left arrow.png" alt="">
                 </div>
                 <div class="content-5__content--box">
-                    <div class="content-5__content--box1">
-                        <img class="content-5__content--box1--img" src="../img/home-img/image_specials_1.png" alt="">
-                        <div class="content-5__content--box1--footer">
-                            <h1 class="content-5__content--box1--footer__items1">VIEW ALL MENU</h1>
-                            <img class="content-5__content--box1--footer__items2" src="../img/home-img/Group.png" alt="">
-                        </div>
+                    <div class="content-5__content--box__slideshow">
+                                        <div class="content-5__content--box__layout">
+                                            <div class="content-5__content--box1">
+                                                <img class="content-5__content--box1--img" src="../img/home-img/image_specials_1.png" alt="">
+                                                <div class="content-5__content--box1--footer">
+                                                    <h1 class="content-5__content--box1--footer__items1">VIEW ALL MENU</h1>
+                                                    <img class="content-5__content--box1--footer__items2" src="../img/home-img/Group.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="content-5__content--box2">
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$55</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Pan Con Berenjina Frita</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour sauce, dill & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$40</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Fried aubergine with almond on bread (2 pieces).</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$45</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$35</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Coconut Chia Bowl</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour saucel & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$95</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$120</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$29</p>
+                                                </div>
+                                            </div>
+                                        </div>
                     </div>
-                    <div class="content-5__content--box2">
-                        <div class="content-5__content--box2__items">
-                            <div class="content-5__content--box2__items1">
-                                <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
-                                <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
-                                <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
-                            </div>
-                            <p class="content-5__content--box2__items2">$55</p>
-                        </div>
-                        <div class="content-5__content--box2__items">
-                            <div class="content-5__content--box2__items1">
-                                <p class="content-5__content--box2__items1--header">Pan Con Berenjina Frita</p>
-                                <p class="content-5__content--box2__items1--content">Marinated seabass with sour sauce, dill & coriander on bread.</p>
-                                <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
-                            </div>
-                            <p class="content-5__content--box2__items2">$40</p>
-                        </div>
-                        <div class="content-5__content--box2__items">
-                            <div class="content-5__content--box2__items1">
-                                <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
-                                <p class="content-5__content--box2__items1--content">Fried aubergine with almond on bread (2 pieces).</p>
-                                <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
-                            </div>
-                            <p class="content-5__content--box2__items2">$45</p>
-                        </div>
-                        <div class="content-5__content--box2__items">
-                            <div class="content-5__content--box2__items1">
-                                <p class="content-5__content--box2__items1--header">Gazpacho</p>
-                                <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
-                                <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
-                            </div>
-                            <p class="content-5__content--box2__items2">$35</p>
-                        </div>
-                        <div class="content-5__content--box2__items">
-                            <div class="content-5__content--box2__items1">
-                                <p class="content-5__content--box2__items1--header">Coconut Chia Bowl</p>
-                                <p class="content-5__content--box2__items1--content">Marinated seabass with sour saucel & coriander on bread.</p>
-                                <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
-                            </div>
-                            <p class="content-5__content--box2__items2">$95</p>
-                        </div>
-                        <div class="content-5__content--box2__items">
-                            <div class="content-5__content--box2__items1">
-                                <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
-                                <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
-                                <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
-                            </div>
-                            <p class="content-5__content--box2__items2">$120</p>
-                        </div>
-                        <div class="content-5__content--box2__items">
-                            <div class="content-5__content--box2__items1">
-                                <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
-                                <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
-                                <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
-                            </div>
-                            <p class="content-5__content--box2__items2">$29</p>
-                        </div>
+                    <div class="content-5__content--box__slideshow">
+                                        <div class="content-5__content--box__layout">
+                                            <div class="content-5__content--box1">
+                                                <img class="content-5__content--box1--img" src="../img/home-img/pexels-ninh219-8341622.jpg" alt="">
+                                                <div class="content-5__content--box1--footer">
+                                                    <h1 class="content-5__content--box1--footer__items1">VIEW ALL MENU</h1>
+                                                    <img class="content-5__content--box1--footer__items2" src="../img/home-img/Group.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="content-5__content--box2">
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$55</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Pan Con Berenjina Frita</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour sauce, dill & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$40</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Fried aubergine with almond on bread (2 pieces).</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$45</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$35</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Coconut Chia Bowl</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour saucel & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$95</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$120</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$29</p>
+                                                </div>
+                                            </div>
+                                        </div>
                     </div>
+                    <div class="content-5__content--box__slideshow">
+                                        <div class="content-5__content--box__layout">
+                                            <div class="content-5__content--box1">
+                                                <img class="content-5__content--box1--img" src="../img/home-img/pexels-fauxels-3184188.jpg" alt="">
+                                                <div class="content-5__content--box1--footer">
+                                                    <h1 class="content-5__content--box1--footer__items1">VIEW ALL MENU</h1>
+                                                    <img class="content-5__content--box1--footer__items2" src="../img/home-img/Group.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="content-5__content--box2">
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$55</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Pan Con Berenjina Frita</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour sauce, dill & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$40</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Fried aubergine with almond on bread (2 pieces).</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$45</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$35</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Coconut Chia Bowl</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour saucel & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$95</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$120</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$29</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                    </div>
+                    <div class="content-5__content--box__slideshow">
+                                        <div class="content-5__content--box__layout">
+                                            <div class="content-5__content--box1">
+                                                <img class="content-5__content--box1--img" src="../img/home-img/pexels-vince-2233348.jpg" alt="">
+                                                <div class="content-5__content--box1--footer">
+                                                    <h1 class="content-5__content--box1--footer__items1">VIEW ALL MENU</h1>
+                                                    <img class="content-5__content--box1--footer__items2" src="../img/home-img/Group.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="content-5__content--box2">
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$55</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Pan Con Berenjina Frita</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour sauce, dill & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$40</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Fried aubergine with almond on bread (2 pieces).</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$45</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$35</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Coconut Chia Bowl</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour saucel & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$95</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$120</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$29</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                    </div>
+                    <div class="content-5__content--box__slideshow">
+                                        <div class="content-5__content--box__layout">
+                                            <div class="content-5__content--box1">
+                                                <img class="content-5__content--box1--img" src="../img/home-img/pexels-nikita-krasnov-5999644-6006599.jpg" alt="">
+                                                <div class="content-5__content--box1--footer">
+                                                    <h1 class="content-5__content--box1--footer__items1">VIEW ALL MENU</h1>
+                                                    <img class="content-5__content--box1--footer__items2" src="../img/home-img/Group.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="content-5__content--box2">
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$55</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Pan Con Berenjina Frita</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour sauce, dill & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$40</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Fried aubergine with almond on bread (2 pieces).</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$45</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$35</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Coconut Chia Bowl</p>
+                                                        <p class="content-5__content--box2__items1--content">Marinated seabass with sour saucel & coriander on bread.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$95</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">New Lubina Marinada</p>
+                                                        <p class="content-5__content--box2__items1--content">Atlantic cod fillet, chips, salad, tartare, lemon.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$120</p>
+                                                </div>
+                                                <div class="content-5__content--box2__items">
+                                                    <div class="content-5__content--box2__items1">
+                                                        <p class="content-5__content--box2__items1--header">Gazpacho Garlic</p>
+                                                        <p class="content-5__content--box2__items1--content">Chilled tomato, cucumber, garlic, red pepper soup.</p>
+                                                        <img class="content-5__content--box2__items1--line" src="../img/home-img/Line 5.png" alt="">
+                                                    </div>
+                                                    <p class="content-5__content--box2__items2">$29</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                    </div>
+
                 </div>
-                <div class="content-5__content--img">
+                <div class="content-5__content--img" onclick="plusSlides(1)">
                     <img class="content-5__content--img2" src="../img/home-img/right arrow.png" alt="">
                 </div>
             </div>
@@ -315,7 +645,7 @@
                         <div class="content-7__box2__body1--box2">
                             <header class="content-7__box2__body1--box2__header">Success Story</header>
                             <p class="content-7__box2__body1--box2__content">Certain circumstances and owing to the claims of duty obligations of<br> business it will frequently.</p>
-                            <a class="content-7__box2__body1--box2__link" href="">
+                            <a class="content-7__box2__body1--box2__link" href="../html/about.html">
                                 <button class="content-7__box2__body1--box2__button">
                                     <h2 class="content-7__box2__body1--box2__button--text">Read More</h2>
                                     <div class="content-7__box2__body1--box2__button--icon">
@@ -333,7 +663,7 @@
                         <div class="content-7__box2__body2--box2">
                             <header class="content-7__box2__body2--box2__header">Passionate Chefs</header>
                             <p class="content-7__box2__body2--box2__content">Duty or the obligations of business it frequently occur pleasures have <br>to be repudiated.</p>
-                            <a class="content-7__box2__body2--box2__link" href="">
+                            <a class="content-7__box2__body2--box2__link" href="../html/about.html">
                                 <button class="content-7__box2__body2--box2__button">
                                     <h2 class="content-7__box2__body2--box2__button--text">Read More</h2>
                                     <div class="content-7__box2__body2--box2__button--icon">
@@ -527,6 +857,9 @@
             </div>
         </div>
     </div>
+    
     <iframe class="footer" src="../html/footer.html"></iframe>
+    <script src="../script/home.js"></script>
+   
 </body>
 </html>
