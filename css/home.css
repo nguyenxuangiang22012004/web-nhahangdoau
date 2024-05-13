@@ -38,6 +38,7 @@
 .content-1__box{
     width: 80%;
     height: 100%; 
+    box-sizing: border-box;
 }
 .content-1__box--items{
     width: 100%;
@@ -49,6 +50,30 @@
 .content-1__block1{
     width: 100%;
     height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-1__block1__slideshow{
+    width: 100%;
+    height: 100%;
+    display: none;
+    transform-origin: right;
+	animation: slide1 ease-in 1s;
+}
+@keyframes slide1
+{
+	from{
+		opacity: 0;
+		transform: scale(0);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.content-1__block1__layout{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -146,13 +171,15 @@
     align-items: flex-end;
     justify-content: flex-end;
 }
+.cuon{
+    background-color: var(--maincolor1);
+}
 .content-1__items4--cuon__items{
     width: 20px;
     height: 20px;
     border: 3px solid var(--maincolor1);
     border-radius: 50%;
     background-color: var(--maincolor2);
-    transition: background-color 0.5s ease;
 }
 .content-1__items4--cuon__items:hover{
     background-color: var(--maincolor1);
@@ -446,7 +473,7 @@
     cursor: pointer;
     transition-duration: 0.4s;
 }
-.content-5__menu--items:first-child{
+.active {
     background-color: var(--maincolor1);
     color: var(--maincolor2);
 }
@@ -470,6 +497,27 @@
 .content-5__content--box{
     width: 75%;
     height: 675px;
+    display: flex;
+}
+.content-5__content--box__slideshow{
+    width: 100%;
+    height: 100%;
+    display: none;
+    animation: slide 0.7s ease-in-out;
+}
+@keyframes slide {
+    from{
+		opacity: 0.2;
+		transform: scale(0.5);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.content-5__content--box__layout{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     gap: 50px;
