@@ -1,0 +1,177 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --maincolor1:#CC3333;
+    --maincolor2: #FFF8EE;
+    --maincolor3: #2A435D;
+}
+.header__block{
+    width: 100%;
+    height: 154px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+.header__nabal{
+    width: 100%;
+    height: 35px;
+    background-color:var(--maincolor1);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.header__nabal--block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nabal--box{
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+.header__nabal--items1,.header__nabal--items2,.header__nabal--items3{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header__nabal--items3{
+    justify-content: flex-end;
+}
+.header__content{
+    width: 100%;
+    height: 119px;
+    background-color:var(--maincolor2);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nabal--time{
+    width: 20px;
+    height: 20px;
+}
+.header__nabal--call{
+    width: 20px;
+    height: 20px;
+    color:var( --maincolor2);
+}
+.header__nabal--call--text,.header__nabal--time--text{
+    width: 104px;
+    height: 14px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color:var( --maincolor2);
+}
+.header__nabal--items3--items{
+    width: 55px;
+    height: 14px;
+    font-size: 12px;
+    color:var( --maincolor2);
+    font-family: "Roboto", sans-serif;
+}
+.header__body{
+    width: 83.194%;
+    height: 76px;
+    display: flex;
+    box-sizing: border-box;
+    background-color:var(--maincolor2);
+    justify-content: space-between;
+}
+.header__logo{
+    width: 112px;
+    height: 75px;
+    margin-top: 1px;
+    margin-left: 0px;
+}
+.header__cn{
+    width: 41.4%;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 161px;
+    display: flex;
+    gap: 40px;
+    padding-left: 1px;
+    box-sizing: border-box;
+    padding-right: 1px;
+    margin-right: 40px;
+}
+.header__cn--items{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #2A435D;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.header__shoplogo{
+    width: 60px;
+    height: 61px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+.header__contac{
+    width: 175px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__contac--items{
+    width: 150px;
+    height: 100%;
+}
+.header__contac--items1{
+    font-size: 20px;
+    color: #2A435D;
+    font-weight: bold;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    margin-left: 2px;
+}
+.header__contac--items2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: var(--maincolor3);
+    margin-top: -35px;
+    margin-left: 0px;
+}
+.header__contac--items3{
+    width: 35px;
+    height: 35px;
+
+}
+.header__bonton{
+    width: 90px;
+    height: 35px;
+    background-color:var(--maincolor1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    color:var( --maincolor2);
+    cursor: pointer;
+    margin-left: 44px;
+    margin-top: 14px;
+    transition: transform 0.3s ease;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.header__bonton:hover,.header__cn--items:hover{
+    transform: scale(1.2);
+}

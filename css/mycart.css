@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.trungtam{
+    max-width: 100%;
+    height: 1200px;
+    position: relative;
+}
+.mycart{
+    width: 100%;
+    height: 198px;
+    background-image: url(../img/09-img/Rectangle\ 58.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 41.02px;
+}
+.bangtinh{
+    width: 1241px;
+    height: 907px;
+    position: absolute;
+    left:10%;
+    top:19%;
+}
+.bangtinh1{
+    width: 1241px;
+    height: 292px;
+}
+.tieude{
+    width: 1241px;
+    height: 60px;
+    background-color: #CC3333;
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.3px;
+    text-align: left; 
+    color:  #FFF8EE;
+    display: flex;
+    justify-content: space-between;
+}
+.tieude .chitiettieude{
+    width: 590px;
+    height: 48px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+.chitiettieude span{
+    float:left;
+    margin-right: 70px;
+}
+.chitiettieude1{
+    width: 584px;
+    height: 48px;
+    padding-top: 15px;
+    padding-left: 60px;
+}
+.chitiettieude1 span{
+    margin-right: 120px;
+    float: left;
+}
+.chitiettieude .unitprice{
+    margin-right: 10px;
+}
+
+.listproduct1{
+font-family: 'Roboto';
+font-size: 19px;
+font-weight: 700;
+line-height: 23.44px;   
+}
+.listproduct1 img{
+    width: 148px;
+    height: 81px;
+    display: block;
+}
+
+.x{
+background-color: white;
+font-family: 'Roboto';
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+color: #CC3333;
+border: none;
+}
+._3caidau{
+    width: 550px;
+    height: 98px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -40px;
+}
+._3caisau{
+    width: 452px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 100px;
+}
+.belgium{
+    width: 192px;
+    height: 62px;
+    text-align: center;
+    margin-right: 10px;
+}
+.listproduct1 li{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    border-bottom: 2px solid #CC3333;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+}
+.congvatru{
+    width: 179px;
+    height: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+.cong,.tru{
+box-sizing: border-box;
+border: 1px solid #CC3333;
+width: 35px;
+height: 25px;
+font-family: 'Roboto';
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+text-align: center;
+}
+.calculateandcartsubtotal{
+    width: 1241px;
+    height: 488px;
+    position: absolute;
+    top:45%;
+    display: flex;
+    justify-content: space-between;
+}
+.calculate,.cartsubtotal{
+    width: 580px;
+    height: 453x;
+    background-color: #FFF8EE;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41.02px;
+    padding-top:25px;
+    color: #CC3333;
+}
+.selectoption,#cardnumber1{
+    /* text_field */
+box-sizing: border-box;
+/* primary color */
+/* primary color */
+border: 2px solid #CC3333;
+border-radius: 10px;
+width: 307px;
+height: 55px;
+padding-left: 12px;
+margin-top: 20px;
+}
+.selectoption{
+    background: #CC3333;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: white;
+}
+.option2{
+    width: 100%;
+    height: 216px;
+    margin-left: 103px;
+    padding-top: 30px;
+}
+.option2 p{
+    border-bottom: 2px solid #CC3333;
+    width: 356px;
+    text-align: left;
+    height: 34px;
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.09px;
+
+
+}
+
+#cardnumber1,.option2{
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400;
+line-height: 21.09px;
+color: #CC3333;
+}
+.apply1{
+background: #CC3333;
+border-radius: 10px;
+font-family: 'Roboto';
+font-size: 25px;
+font-weight: 400;
+line-height: 29.3px;
+color: #FFFFFF;
+width: 217px;
+height: 64px;
+margin-top: 30px;
+margin-left: 43px;
+border: none;
+}
+.select0{
+    width: 335px;
+    height: 213px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.tieudecartsubtotal p{
+    text-align: left;
+    margin-left: 100px;
+}
+.option2 span{
+    margin-left: 175px;
+}
+.proceed1{
+background: #CC3333;
+border-radius: 10px;
+width: 252px;
+height: 61px;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 400;
+line-height: 21.09px;
+color: white;
+margin-top: 57px;
+border: none;
+}
+.proceed0{
+    margin-left: 103px;
+    text-align: left;
+}
+.footer{
+    width: 100%;
+    height: 298px;
+    box-sizing: border-box;
+    position: relative;
+    top: 130px;
+    left: 0px;
+    right: 0;
+}
+.ourbranch{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    text-align: center;
+    /* second color */
+    color: #2A435D;
+    margin-bottom: -100px;
+    }
