@@ -1,67 +1,52 @@
-$(document).ready(function() {
-  $('#login-form').submit(function(event) {
-    event.preventDefault();
-    if(validateLoginForm()){
-      this.submit();
-    }
+document.addEventListener("DOMContentLoaded", function () {
+  // gửi biểu mẫu đăng nhập
+  const loginForm = document.querySelector(".login-form");
+  loginForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const username = loginForm.querySelector(".username").value;
+      const password = loginForm.querySelector(".password").value;
+
+      // Thực hiện xác thực đăng nhập
+      console.log("Login attempt with", { username, password });
+
+      // Kiểm tra xem tên người dùng và mật khẩu có được cung cấp không
+      if (username.trim() === "" || password.trim() === "") {
+          alert("Tên người dùng và mật khẩu là bắt buộc");
+          return;
+      }
+
+      // Kiểm tra xem mật khẩu có ít nhất 6 ký tự không
+      if (password.trim().length < 6) {
+          alert("Mật khẩu phải có độ dài ít nhất 6 ký tự");
+          return;
+      }
+
+      // đăng nhập thành công
+      alert("Login successful!");
   });
 
-  $('#register-form').submit(function(event) {
-    event.preventDefault();
-    if(validateRegisterForm()){
-      this.submit();
-    }
+  // Xử lý việc gửi biểu mẫu đăng ký
+  const registerForm = document.querySelector(".register-form");
+  registerForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const email = registerForm.querySelector(".email").value;
+
+      // Thực hiện xác thực đăng ký
+      console.log("Register attempt with", { email });
+
+      // Chức năng xác thực email
+      if (validateEmail(email)) {
+          alert("Đăng ký thành công! Kiểm tra email của bạn để tìm liên kết để đặt mật khẩu mới.");
+      } else {
+          alert("địa chỉ email không hợp lệ");
+      }
   });
 
-  $('.lost').click(function() {
-    alert("Lost your password?");
-  });
+
+  function validateEmail(email) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+  }
 });
-
-function validateLoginForm() {
-  const username = $('.username').val();
-  const password = $('.password').val();
-  const errorMessages = [];
-
-  if (username.length < 4) {
-    errorMessages.push("Username must be at least 4 characters long.");
-  }
-
-  if (password.length < 5) {
-    errorMessages.push("Password must be at least 5 characters long.");
-  } else if (!/\d/.test(password)) {
-    errorMessages.push("Password must contain at least one digit.");
-  }
-
-  if (errorMessages.length > 0) {
-    $('#loginError').html(errorMessages.join("<br>"));
-    return false;
-  } else {
-    $('#loginError').html("");
-    alert("Login successful");
-    $('#login-form')[0].reset();
-    return true;
-  }
-}
-
-function validateRegisterForm() {
-  const email = $('.email').val();
-  const errorMessages = [];
-
-  // Kiểm tra email
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-      errorMessages.push("Email is invalid.");
-  }
-
-  // Hiển thị thông báo lỗi
-  if (errorMessages.length > 0) {
-      $('#registerError').html(errorMessages.join("<br>"));
-      return false;
-  } else {
-      $('#registerError').html("");
-      alert("Registration successful");
-      $('#register-form')[0].reset();
-      return true;
-  }
-}

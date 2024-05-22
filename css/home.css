@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
 }
 :root{
-  --maincolor1:#CC3333;
+  --maincolor1: #CC3333;
   --maincolor2: #FFF8EE;
   --maincolor3: #2A435D;
 }
@@ -172,7 +172,8 @@ to{
   justify-content: flex-end;
 }
 .cuon{
-  background-color: var(--maincolor1);
+  /* background-color: var(--maincolor1); */
+  background-color: blue;
 }
 .content-1__items4--cuon__items{
   width: 20px;
@@ -1136,6 +1137,17 @@ to{
   flex-shrink: 0;
   text-align: center;
   box-sizing: border-box;
+  animation: animation2 0.2s ease-in;
+}
+@keyframes  animation2{
+  from{
+  opacity: 0.2;
+  transform: scale(0.7);
+}
+to{
+  opacity: 1;
+  transform: scale(1);
+} 
 }
 .content-10__body--box--img{
   width: 100px;
@@ -1229,6 +1241,18 @@ to{
   left: 0px;
   right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
