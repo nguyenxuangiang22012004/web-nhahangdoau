@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.trungtam{
+    max-width: 100%;
+    height: 1100px;
+    position: relative;
+}
+.mycart{
+    width: 100%;
+    height: 198px;
+    background-image: url(../img/09-img/Rectangle\ 58.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 41.02px;
+}
+.bangtinh{
+    width: 1241px;
+    height: 907px;
+    position: absolute;
+    left:10%;
+    top:19%;
+}
+.bangtinh1{
+    width: 1241px;
+    height: 292px;
+}
+.tieude{
+    width: 1241px;
+    height: 60px;
+    background-color: #CC3333;
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.3px;
+    text-align: left; 
+    color:  #FFF8EE;
+    display: flex;
+    justify-content: space-between;
+}
+.tieude .chitiettieude{
+    width: 590px;
+    height: 48px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+.chitiettieude span{
+    float:left;
+    margin-right: 70px;
+}
+.chitiettieude1{
+    width: 600px;
+    height: 48px;
+    padding-top: 15px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.chitiettieude1 span{
+    margin-left: 50px;
+    float: left;
+}
+.chitiettieude .unitprice{
+    margin-right: 10px;
+}
+ul{
+    list-style: none;
+}
+.chitietsanpham li{
+font-family: 'Roboto';
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 2px solid #CC3333;
+}
+._3caidau{
+    width: 594px;
+    height: 111px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+._3caisau{
+    width: 563px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 70px;
+}
+.belgium{
+    width: 197px;
+    height: 58px;
+    text-align: center;
+    margin-right: 30px;
+}
+.cong,.tru{
+    width: 39px;
+    height: 25px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+    border: 2px solid #CC3333;
+}
+.congvatru{
+    width: 186px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+._150{
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+.addtocart{
+    width: 167px;
+    height: 34px;
+    border: 2px solid #CC3333;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.3px;
+    background-color: #CC3333;
+    color: #FFF8EE;
+    margin-right: 60px;
+}
+.addtocart:hover{
+    width: 200px;
+    height: 40px;
+    transition: 0.3s;
+    font-size: 28px;
+}
+.x{
+    background-color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #CC3333;
+    border: none;
+    margin-right: 30px;
+}
+.ourbranch{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+text-align: center;
+/* second color */
+color: #2A435D;
+margin-bottom: -100px;
+}
+.footer{
+    width: 100%;
+    height: 298px;
+    box-sizing: border-box;
+    position: relative;
+    top: 130px;
+    left: 0px;
+    right: 0;
+}
