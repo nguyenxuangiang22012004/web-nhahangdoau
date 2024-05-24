@@ -35,36 +35,22 @@ showSlides2();
 function showSlides2() {
   let i;
   let slides2 = document.getElementsByClassName("content-1__block1__slideshow");
-<<<<<<< HEAD
-  /*let dots2 = document.getElementsByClassName("content-1__items4--cuon__items");*/
-=======
   let dots2 = document.getElementsByClassName("content-1__items4--cuon__items");
->>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
   for (i = 0; i < slides2.length; i++) {
     slides2[i].style.display = "none";  
   }
   slideIndex2++;
   if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
-<<<<<<< HEAD
-  /*for (i = 0; i < dots2.length; i++) {
-    dots2[i].className = dots2[i].className.replace(" cuon", "");
-  }*/
-  slides2[slideIndex2-1].style.display = "block";  
-  /*dots2[slideIndex2-1].className += " active";*/
-=======
   for (i = 0; i < dots2.length; i++) {
     dots2[i].className = dots2[i].className.replace(" cuon", "");
     
   }
   slides2[slideIndex2-1].style.display = "block";  
   dots2[slideIndex2-1].className += " active";
->>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
   setTimeout(showSlides2, 3000); // Change image every 2 seconds
 }
 
 
-<<<<<<< HEAD
-=======
 function smoothScroll(targetElement) {
   var targetPosition = targetElement.offsetTop;
   var startPosition = window.pageYOffset;
@@ -125,4 +111,3 @@ function moveToCenter(id) {
 
 
 
->>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
