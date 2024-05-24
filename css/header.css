@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 *{
     font-family: "Roboto", sans-serif;
 }
@@ -8,7 +11,10 @@
     --maincolor2: #FFF8EE;
     --maincolor3: #2A435D;
 }
+<<<<<<< HEAD
 >>>>>>> xuangiangdemo
+=======
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 .header__block{
     width: 100%;
     height: 154px;
@@ -22,6 +28,7 @@
     width: 100%;
     height: 35px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #CC3333;
     display: flex;
     box-sizing: border-box;
@@ -29,6 +36,11 @@
     background-color:var(--maincolor1);
     display: flex;
     box-sizing: border-box;
+=======
+    background-color:var(--maincolor1);
+    display: flex;
+    box-sizing: border-box;
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
     justify-content: center;
 }
 .header__nabal--block{
@@ -55,16 +67,23 @@
 }
 .header__nabal--items3{
     justify-content: flex-end;
+<<<<<<< HEAD
 >>>>>>> xuangiangdemo
+=======
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 }
 .header__content{
     width: 100%;
     height: 119px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #FFF8EE;
 =======
     background-color:var(--maincolor2);
 >>>>>>> xuangiangdemo
+=======
+    background-color:var(--maincolor2);
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -74,14 +93,18 @@
     width: 20px;
     height: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 161px;
     margin-top: 7px;
 =======
 >>>>>>> xuangiangdemo
+=======
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 }
 .header__nabal--call{
     width: 20px;
     height: 20px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     color: #FFF8EE;
     margin-top: 7px;
@@ -89,6 +112,9 @@
 =======
     color:var( --maincolor2);
 >>>>>>> xuangiangdemo
+=======
+    color:var( --maincolor2);
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 }
 .header__nabal--call--text,.header__nabal--time--text{
     width: 104px;
@@ -96,24 +122,27 @@
     font-size: 12px;
     font-family: "Roboto", sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #FFF8EE;
     margin-top: 10px;
     margin-left: 15px;
+=======
+    color:var( --maincolor2);
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 }
-.header__nabal--items3{
+.header__nabal--items3--items{
     width: 55px;
     height: 14px;
-    margin-top: 10px;
     font-size: 12px;
-    margin-left: 815px;
-    color: #FFF8EE;
+    color:var( --maincolor2);
     font-family: "Roboto", sans-serif;
 }
 .header__body{
-    width: 1198px;
+    width: 83.194%;
     height: 76px;
     display: flex;
     box-sizing: border-box;
+<<<<<<< HEAD
     background-color:#FFF8EE;
 
 =======
@@ -134,6 +163,10 @@
     background-color:var(--maincolor2);
     justify-content: space-between;
 >>>>>>> xuangiangdemo
+=======
+    background-color:var(--maincolor2);
+    justify-content: space-between;
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 }
 .header__logo{
     width: 112px;
@@ -143,10 +176,14 @@
 }
 .header__cn{
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 496px;
 =======
     width: 41.4%;
 >>>>>>> xuangiangdemo
+=======
+    width: 41.4%;
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
     height: 23px;
     margin-top: 20px;
     margin-left: 161px;
@@ -178,7 +215,10 @@
     margin-top: 14px;
     margin-left: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -186,7 +226,10 @@
 .header__contac--items{
     width: 150px;
     height: 100%;
+<<<<<<< HEAD
 >>>>>>> xuangiangdemo
+=======
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 }
 .header__contac--items1{
     font-size: 20px;
@@ -200,10 +243,14 @@
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #2A435D;
 =======
     color: var(--maincolor3);
 >>>>>>> xuangiangdemo
+=======
+    color: var(--maincolor3);
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
     margin-top: -35px;
     margin-left: 0px;
 }
@@ -211,21 +258,29 @@
     width: 35px;
     height: 35px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     position: absolute;
     top: 67px;
     left: 1200px;
 =======
 
 >>>>>>> xuangiangdemo
+=======
+
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 }
 .header__bonton{
     width: 90px;
     height: 35px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #CC3333;
 =======
     background-color:var(--maincolor1);
 >>>>>>> xuangiangdemo
+=======
+    background-color:var(--maincolor1);
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -234,10 +289,14 @@
     font-size: 18px;
     font-weight:bold;
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: #FFF8EE;
 =======
     color:var( --maincolor2);
 >>>>>>> xuangiangdemo
+=======
+    color:var( --maincolor2);
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
     cursor: pointer;
     margin-left: 44px;
     margin-top: 14px;

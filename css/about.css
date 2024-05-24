@@ -270,6 +270,25 @@
     align-items: center;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+.content-5__body--slideshow{
+    width: 100%;
+    height: 100%;
+    display: none;
+    animation: slide 0.5s ease-in;
+}
+@keyframes slide {
+    from{
+		opacity: 0;
+		transform: scale(0);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+>>>>>>> 3190ff42a85bfd201eab33f83017b2bbc80b6359
 .content-5__body__layoutcontent{
     display: flex;
     justify-content: space-between;
