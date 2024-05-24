@@ -1,12 +1,33 @@
+<<<<<<< HEAD
+=======
+*{
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --maincolor1:#CC3333;
+    --maincolor2: #FFF8EE;
+    --maincolor3: #2A435D;
+}
+>>>>>>> xuangiangdemo
 .footer__block{
     width: 100%;
     height: 298px;
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    position: fixed;
+    top: 0;
+    left: 0;
+>>>>>>> xuangiangdemo
 }
 .footer__main{
     width: 100%;
     height: 198px;
+<<<<<<< HEAD
     background-color: #CC3333;
+=======
+    background-color: var(--maincolor1);
+>>>>>>> xuangiangdemo
     display: flex;
     justify-content: center;
     gap: 39px;
@@ -15,7 +36,11 @@
 .footer__tag{
     width: 100%;
     height: 100px;
+<<<<<<< HEAD
     background-color: #2A435D;
+=======
+    background-color:var(--maincolor3);
+>>>>>>> xuangiangdemo
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,14 +66,22 @@
     font-family: "Roboto", sans-serif;
     font-size: 35px;
     font-weight: bold;
+<<<<<<< HEAD
     color: #FFF8EE;
+=======
+    color: var(--maincolor2);
+>>>>>>> xuangiangdemo
     margin-top: 0%;
 }
 .footer__main--items-s2{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: bold;
+<<<<<<< HEAD
     color: #FFF8EE;
+=======
+    color: var(--maincolor2);
+>>>>>>> xuangiangdemo
     margin-top: -25px;
 }
 .footer__time--img,.footer__contact--img{
@@ -58,7 +91,11 @@
 .footer__time--text,.footer__contact--text{
     font-family: "Roboto", sans-serif;
     font-size: 12px;
+<<<<<<< HEAD
     color: #FFF8EE;
+=======
+    color: var(--maincolor2);
+>>>>>>> xuangiangdemo
 }
 .footer__main--items-s3{
     display: flex;
@@ -77,7 +114,11 @@
 .footer__tag--items{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+<<<<<<< HEAD
     color: #FFF8EE;
+=======
+    color: var(--maincolor2);
+>>>>>>> xuangiangdemo
     font-weight: bold;
 }
 .footer__main--items-s4:hover{
