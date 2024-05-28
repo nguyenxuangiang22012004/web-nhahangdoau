@@ -1,6 +1,6 @@
 
 type: web
-    name: my-blog
+    name: web-nhahangdoau
     runtime: static
     buildCommand: yarn build
     staticPublishPath: ./build
