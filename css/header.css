@@ -154,6 +154,9 @@
     height: 35px;
 
 }
+.header__button--link{
+    text-decoration: none;
+}
 .header__bonton{
     width: 90px;
     height: 35px;
