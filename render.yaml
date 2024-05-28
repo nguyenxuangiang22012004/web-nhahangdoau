@@ -1,6 +1,3 @@
-
-
-    staticPublishPath: ./
    headers:
   # Adds X-Frame-Options: sameorigin to all site paths
   - path: /*
