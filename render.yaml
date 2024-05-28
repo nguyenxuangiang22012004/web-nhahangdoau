@@ -1,17 +1,21 @@
 
-type: web
-    runtime: static
-    buildCommand: yarn build
+
     staticPublishPath: ./build
-    pullRequestPreviewsEnabled: true # Enable service previews
-    headers:
-      - path: /*
-        name: X-Frame-Options
-        value: sameorigin
-    routes:
-      - type: redirect
-        source: /old
-        destination: /new
-      - type: rewrite
-        source: /a/*
-        destination: /a
+   headers:
+  # Adds X-Frame-Options: sameorigin to all site paths
+  - path: /*
+    name: X-Frame-Options
+    value: sameorigin
+  # Adds Cache-Control: must-revalidate to /blog paths
+  - path: /blog/*
+    name: Cache-Control
+    value: must-revalidate
+   routes:
+  # Redirect (HTTP status 301) from /a to /b
+  - type: redirect
+    source: /a
+    destination: /b
+  # Rewrite all /app/* requests to /app
+  - type: rewrite
+    source: /app/*
+    destination: /app
