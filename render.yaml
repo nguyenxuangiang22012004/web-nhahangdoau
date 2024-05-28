@@ -1,6 +1,6 @@
 
 type: web
-    name: web-nhahangdoau
+    name: web
     runtime: static
     buildCommand: yarn build
     staticPublishPath: ./build
