@@ -1,0 +1,65 @@
+Giang
+Nguyễn Xuân Giang
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/my_accounts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <iframe class="header" src="../html/header.html"></iframe>
+    <div class="body">
+        <div class="anh_nen">
+            <img class="anh_nen_layout" src="../img/items&items_detail-img/image_items_bg.png" alt="">
+            <div class="chu_layout">
+                <h2 class="tieu_de">My Account</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="column_1">
+                <div class="login">Login</div>
+                    <div class="form-group_1">
+                        <label for="username">Username or Email Address *</label><br/>
+                        <input type="text" class="username" name="username" required><br>
+                        <small></small>
+                    </div>
+                    <div class="form-group_2">
+                        <label for="password">Password *</label><br/>
+                        <input type="password" class="password" name="password" required><br>
+                        <small></small>
+                    </div>
+                    <a href="../html/profiledetail.html" class="login-1__link">
+                        <div class="login_1">Log in</div>
+                    </a>
+                    <div class="quenmk">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <p class="lost">Lost your password?</p>
+            </div>
+            <div class="column_2">
+                <b class="register">Register</b>
+                    <div class="mail_1">
+                        <label for="email">Email Address *</label><br/>
+                        <input type="email" class="email" name="email" required>
+                    </div>
+                    <p class="link">A link to set a new password will be sent to your email address.</p>
+                    <button type="submit" id="register" class="register_1">Register</button>
+            </div>
+        </div>
+        <div class="content-footer">
+            <h1 class="content-footer-items">Our Branch</h1>
+        </div>
+    </div>
+    <iframe class="footer" src="../html/footer.html"></iframe>
+    <script src="../script/my_accounts.js"></script>
+</body>
+</html>
